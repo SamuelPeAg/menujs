@@ -5,8 +5,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #1d4122;
-  color: #fff;
+  background: #0f172a;
+  color: #e2e8f0;
 }
 
 .container {
@@ -25,20 +25,20 @@ body {
 }
 
 a {
-  color: #fff;
+  color: #e2e8f0;
 }
 
 .page-header a {
   display: inline-block;
   text-decoration: none;
   padding: 8px 12px;
-  border: 1px solid #6192b9;
+  border: 1px solid #334155;
   border-radius: 8px;
-  background: #1e415e;
+  background: #111827;
 }
 
 .page-header a:hover {
-  background: #2a5c59;
+  background: #1f2937;
 }
 
 .grid {
@@ -49,17 +49,17 @@ a {
 }
 
 .card {
-  background: #1e415e;
+  background: #111827;
   display: block;
   padding: 15px;
-  border: 1px solid #6192b9;
+  border: 1px solid #334155;
   border-radius: 10px;
   text-decoration: none;
-  color: #fff;
+  color: #e2e8f0;
 }
 
 .card:hover {
-  background: #2a5c59;
+  background: #1f2937;
 }
 
 form {
@@ -80,7 +80,7 @@ input[type="color"] {
   width: 44px;
   height: 34px;
   padding: 0;
-  border: 1px solid #6192b9;
+  border: 1px solid #334155;
   border-radius: 8px;
   background: transparent;
   cursor: pointer;
@@ -88,15 +88,15 @@ input[type="color"] {
 
 button {
   padding: 8px 12px;
-  border: 1px solid #6192b9;
+  border: 1px solid #334155;
   border-radius: 8px;
-  background: #1e415e;
-  color: #fff;
+  background: #111827;
+  color: #e2e8f0;
   cursor: pointer;
 }
 
 button:hover {
-  background: #2a5c59;
+  background: #1f2937;
 }
 
 img {
