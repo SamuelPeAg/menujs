@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestión de elementos - jQuery</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <h1>Gestión de elementos (jQuery)</h1>
+      <a href="../index.html">Volver al inicio</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <form id="controls">
+      <label for="bgColor">Color</label>
+      <input type="color" id="bgColor" value="#222222" />
+      <button type="button" id="btnApplyColor">Cambiar fondo</button>
+      <button type="button" id="btnAdd">Añadir elemento</button>
+      <button type="button" id="btnReset">Reset</button>
+    </form>
+
+    <section id="items" class="grid"></section>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="../js/gestion_jquery.js"></script>
+</body>
+</html>

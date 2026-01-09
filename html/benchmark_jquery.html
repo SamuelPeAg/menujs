@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reaction Time - jQuery</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <h1>Reaction Time (jQuery)</h1>
+      <a href="../index.html">Volver al inicio</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="humanArea" class="card" style="height:320px;display:flex;align-items:center;justify-content:center;text-align:center;cursor:pointer;">
+      <div>
+        <h2 id="infoTitle" style="margin:0 0 10px;">Click para empezar</h2>
+        <p id="infoText" style="margin:0;">Cuando cambie a VERDE, haz click lo más rápido posible.</p>
+      </div>
+    </section>
+
+    <div style="padding:12px 0;">
+      <button type="button" id="btnReset">Reset</button>
+    </div>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="../js/benchmark_jquery.js  "></script>
+</body>
+</html>
