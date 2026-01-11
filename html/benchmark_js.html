@@ -9,22 +9,28 @@
 <body>
   <header class="page-header">
     <div class="container">
-      <h1>Reaction Time (JavaScript)</h1>
-      <a href="../index.html">Volver al inicio</a>
+      <div>
+        <span class="badge">JavaScript</span>
+        <h1>Reaction time</h1>
+      </div>
+      <a class="link-btn" href="../index.html">Volver al inicio</a>
     </div>
   </header>
 
   <main class="container">
-    <section id="humanArea" class="card" style="height:320px;display:flex;align-items:center;justify-content:center;text-align:center;cursor:pointer;background:#111;">
-      <div>
-        <h2 id="infoTitle" style="margin:0 0 10px;">Click para empezar</h2>
-        <p id="infoText" style="margin:0;">Cuando cambie a VERDE, haz click lo más rápido posible.</p>
+    <section class="panel">
+      <div id="humanArea" class="arena">
+        <div class="arena__content">
+          <h2 id="infoTitle" class="arena__title">Click para empezar</h2>
+          <p id="infoText" class="arena__text">Cuando cambie a VERDE, haz click lo más rápido posible.</p>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button type="button" id="btnReset">Reset</button>
+        <span class="hint">Si haces click antes de tiempo, el intento cuenta como fallo.</span>
       </div>
     </section>
-
-    <div style="padding:12px 0;">
-      <button type="button" id="btnReset">Reset</button>
-    </div>
   </main>
 
   <script src="../js/benchamark_js.js"></script>
